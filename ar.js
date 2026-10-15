@@ -10,12 +10,14 @@
   const anchor = $("menu-anchor");
   const previewImage = $("preview-image");
 
-  const menus = {
-    drinks: { title: "Minuman 1", src: "assets/poster-minuman-1.png" },
-    drinks2: { title: "Minuman 2", src: "assets/poster-minuman-2.png" },
-    food: { title: "Makanan 1", src: "assets/poster-makanan-1.png" },
-    food2: { title: "Makanan 2", src: "assets/poster-makanan-2.png" }
-  };
+  
+const menus = {
+  drinks: { title: "Minuman 1", src: "poster-minuman-1.png" },
+  drinks2: { title: "Minuman 2", src: "poster-minuman-2.png" },
+  food: { title: "Makanan 1", src: "poster-makanan-1.png" },
+  food2: { title: "Makanan 2", src: "poster-makanan-2.png" }
+};
+
 
   let xrSession = null;
   let hitTestSource = null;
