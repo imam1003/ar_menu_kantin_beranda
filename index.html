@@ -10,11 +10,30 @@
 <body>
     <main id="controls">
         <h1>Foto AR</h1>
-        <label for="photo-file">Pilih foto</label>
+        <p class="section-label">Pilih poster</p>
+        <div id="poster-options" aria-label="Pilihan poster">
+            <button class="poster-option" type="button" data-photo="./assets/poster-makanan-1.png" aria-pressed="true">
+                <img src="./assets/poster-makanan-1.png" alt="">
+                <span>Makanan 1</span>
+            </button>
+            <button class="poster-option" type="button" data-photo="./assets/poster-makanan-2.png" aria-pressed="false">
+                <img src="./assets/poster-makanan-2.png" alt="">
+                <span>Makanan 2</span>
+            </button>
+            <button class="poster-option" type="button" data-photo="./assets/poster-minuman-1.png" aria-pressed="false">
+                <img src="./assets/poster-minuman-1.png" alt="">
+                <span>Minuman 1</span>
+            </button>
+            <button class="poster-option" type="button" data-photo="./assets/poster-minuman-2.png" aria-pressed="false">
+                <img src="./assets/poster-minuman-2.png" alt="">
+                <span>Minuman 2</span>
+            </button>
+        </div>
+        <label for="photo-file">Atau pilih foto dari perangkat</label>
         <input id="photo-file" type="file" accept="image/*">
         <button id="start-ar" type="button">Mulai AR</button>
         <p id="status" role="status">Memuat foto contoh...</p>
-        <p class="hint">Arahkan kamera ke lantai atau meja, lalu ketuk layar untuk meletakkan foto.</p>
+        <p class="hint">Arahkan kamera ke lantai atau meja, lalu ketuk layar untuk meletakkan poster berdiri miring menghadap Anda.</p>
     </main>
 </body>
 </html>
