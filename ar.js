@@ -112,7 +112,7 @@ posterOptions.forEach((option) => {
     });
 });
 
-selectPoster(posterOptions[0].dataset.photo, "Makanan 1");
+selectPoster("./poster-makanan-1.png", "Makanan 1");
 
 photoInput.addEventListener("change", () => {
     const file = photoInput.files?.[0];
